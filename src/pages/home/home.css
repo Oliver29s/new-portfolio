@@ -1,0 +1,29 @@
+.home{
+    grid-template-columns: 4.32fr 7.68fr;
+    align-items: center;
+    padding: 40px;
+    height: 100vh;
+}
+
+.home__img{
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0 0 8px hsla(0, 0%, 0%,0.3);
+    overflow-y: hidden;
+    display: flex;
+    flex-direction: column;
+    max-width: 330px;
+    
+}
+
+
+
+.div__img{
+    height: 25%;
+    width: 100%;
+}
+
+.img_profile{
+    height: 100%;
+    width: 100%;
+}
