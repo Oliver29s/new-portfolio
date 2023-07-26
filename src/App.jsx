@@ -8,15 +8,15 @@ import Contact from "./pages/contact/Contact";
 
 function App() {
   return (
-    <>
+    <div className="App">
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About/>} />
+        <Route path="/about" element={<About />} />
         <Route path="/portfolio" element={<Portfolio />} />
         <Route path="/contact" element={<Contact />} />
       </Routes>
-    </>
+    </div>
   );
 }
 

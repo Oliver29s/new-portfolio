@@ -8,34 +8,35 @@ import {
   FaCode,
 } from 'react-icons/fa';
 import { FiFileText, FiUser, FiExternalLink } from 'react-icons/fi';
+import { appClima, colores, crud, ecomerce, pokeAPi, rick } from './imagenes';
 
 
 
 export const links = [
   {
     id: 1,
-    name: 'Home',
+    name: 'Inicio',
     icon: <FaHome className='nav__icon' />,
     path: '/',
   },
 
   {
     id: 2,
-    name: 'About',
+    name: 'Experiencia',
     icon: <FaUser className='nav__icon' />,
     path: '/about',
   },
 
   {
     id: 3,
-    name: 'Portfolio',
+    name: 'Portafolio',
     icon: <FaFolderOpen className='nav__icon' />,
     path: '/portfolio',
   },
 
   {
     id: 4,
-    name: 'Contact',
+    name: 'Contacto',
     icon: <FaEnvelopeOpen className='nav__icon' />,
     path: '/contact',
   },
@@ -153,7 +154,7 @@ export const resume = [
     category: 'experience',
     icon: <FaBriefcase />,
     year: '2005 - 2013',
-    title: 'Consultant <span> Videohive </span>',
+    title: 'Consultant <span> Sitio webhive </span>',
     desc: 'Lorem ipsum dolor sit amet, tempor incididunt ut laboreconsectetur elit, sed do eiusmod tempor duntt',
   },
 
@@ -238,83 +239,83 @@ export const skills = [
 export const portfolio = [
   {
     id: 1,
-    img: '',
-    title: 'Photo Editing',
+    img: appClima,
+    title: 'Aplicacion del clima',
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
+        title: 'Projecto : ',
+        desc: 'Sitio web',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
+        title: 'Cliente : ',
         desc: 'Dribble',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        title: 'Lenguajes : ',
+        desc: 'React + Javascript + CSS',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: 'visualización : ',
+        desc: "https://lovely-creponne-8056fd.netlify.app/",
       },
     ],
   },
 
   {
     id: 2,
-    img: '',
-    title: 'Website Design',
+    img: crud,
+    title: 'Crear Actualizar Elmininar usuarios',
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Website',
+        title: 'Projecto : ',
+        desc: 'Sitio web',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
+        title: 'Cliente: ',
         desc: 'Dribble',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'React JS',
+        title: 'Lenguajes : ',
+        desc: 'React.js + node.js + Express',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: 'visualización : ',
+        desc: 'https://exquisite-strudel-1a370b.netlify.app/',
       },
     ],
   },
 
   {
     id: 3,
-    img: '',
-    title: 'Video Editing',
+    img: colores,
+    title: 'Generador de colores',
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
+        title: 'Projecto : ',
+        desc: 'Sitio web',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
+        title: 'Cliente: ',
         desc: 'Dribble',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
+        title: 'Lenguajes : ',
+        desc: 'react.js + reactComponents',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
+        title: 'visualización : ',
         desc: 'www.dribble.com',
       },
     ],
@@ -322,80 +323,80 @@ export const portfolio = [
 
   {
     id: 4,
-    img: '',
-    title: 'Video Editing',
+    img: rick,
+    title: 'Rick and Morty Web',
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Video',
+        title: 'Projecto : ',
+        desc: 'Sitio web',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
+        title: 'Cliente: ',
         desc: 'Dribble',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Premium',
+        title: 'Lenguajes : ',
+        desc: 'React.js + Nest.js + Prisma',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: 'visualización : ',
+        desc: 'https://splendid-dieffenbachia-066ea3.netlify.app/',
       },
     ],
   },
 
   {
     id: 5,
-    img: '',
-    title: 'Landing Page',
+    img: pokeAPi,
+    title: 'Aplicacion web de pokemons',
     details: [
       {
-        title: 'Project : ',
-        desc: 'Website',
+        title: 'Projecto : ',
+        desc: 'Sitio web',
       },
       {
-        title: 'Client : ',
+        title: 'Cliente: ',
         desc: 'Dribble',
       },
       {
-        title: 'Language : ',
-        desc: 'React JS, Node JS',
+        title: 'Lenguajes : ',
+        desc: 'React JS + Redux + Node JS + Nest.js',
       },
       {
-        title: 'Preview : ',
-        desc: 'www.dribble.com',
+        title: 'visualización : ',
+        desc: 'https://velvety-dusk-150652.netlify.app/#/',
       },
     ],
   },
 
   {
     id: 6,
-    img: '',
-    title: 'Photo Editing',
+    img: ecomerce,
+    title: 'E-commerce',
     details: [
       {
         icon: <FiFileText />,
-        title: 'Project : ',
-        desc: 'Photo',
+        title: 'Projecto : ',
+        desc: 'Sitio web',
       },
       {
         icon: <FiUser />,
-        title: 'Client : ',
+        title: 'Cliente: ',
         desc: 'Dribble',
       },
       {
         icon: <FaCode />,
-        title: 'Language : ',
-        desc: 'Adobe Photoshop',
+        title: 'Lenguajes : ',
+        desc: 'React JS + Redux + Node JS + Nest.js + Prisma + Docker',
       },
       {
         icon: <FiExternalLink />,
-        title: 'Preview : ',
-        desc: 'www.dibble.com',
+        title: 'visualización : ',
+        desc: 'https://musical-starship-c3c885.netlify.app/',
       },
     ],
   },
