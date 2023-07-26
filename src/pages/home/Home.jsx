@@ -28,12 +28,12 @@ const Home = () => {
 
       <div className="home__content">
         <div className="home__data">
-          <h1>
+          <h1 className="home__title">
             {" "}
-            <span>Hola, soy Oliver </span>Diseñador y desarrollador wed
+            <span> - Hola, soy Oliver </span>Diseñador y Desarrollador wed
           </h1>
           <p className="home__description">
-            Soy un desarrollador web full stack con experiencia en HTML, CSS,
+            Como desarrollador web full stack cuento  con experiencia en HTML, CSS,
             JavaScript, React.js, TypeScript, Node.js, Express, Nest.js y
             Prisma. También tengo experiencia en la creación de bases de datos,
             integración de APIs y soluciones de seguridad.Tengo experiencia en
@@ -49,6 +49,9 @@ const Home = () => {
             </span>
           </Link>
         </div>
+      </div>
+      <div className="color__block">
+        
       </div>
     </section>
   );

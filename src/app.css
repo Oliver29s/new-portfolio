@@ -3,7 +3,7 @@
 
 /* CSS VARIABLES */
 
-:root{
+:root {
   /* COLOR */
   --first-color: hsl(271, 76%, 53%);
   --title-color: hsl(0, 0%, 40%);
@@ -37,51 +37,93 @@
   --weight-800: 800;
 }
 
-  body,
-  input,
-  textarea {
-    font-family: var(--body-font);
-    font-size: var(--normal-font-size);
-    font-weight: var(--weight-500);
-  }
-  body {
-    background-color: var(--body-color);
-    color: var(--text-color);
-  }
+body,
+input,
+textarea {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  font-weight: var(--weight-500);
+}
+body {
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
 
-  h1,
-  h2,
-  h3,
-  h4 {
-    color: var(--title-color);
-    font-family: var(--second-font);
-    font-weight: var(--weight-700);
-  }
+h1,
+h2,
+h3,
+h4 {
+  color: var(--title-color);
+  font-family: var(--second-font);
+  font-weight: var(--weight-700);
+}
 
-  ul {
-    list-style: none;
-  }
-  a {
-    text-decoration: none;
-  }
-  button,
-  input,
-  textarea {
-    background-color: transparent;
-    border: none;
-    outline: none;
-  }
-  img {
-    max-width: 100%;
-  }
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+button,
+input,
+textarea {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+img {
+  max-width: 100%;
+}
 
+.grid {
+  display: grid;
+  gap: 30px;
+}
 
+.section {
+  padding-block: 70px;
+}
 
-  .grid{
-    display: grid;
-    gap: 30px;
-  }
+.button {
+  display: inline-block;
+  border-radius: 3rem;
+  color: var(--title-color);
+  border: 1px solid var(--first-color);
+  padding: 15px 70px 15px 30px;
+  font-family: var(--second-font);
+  font-size: var(--small-font-size);
+  font-weight: var(--weight-500);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.25s ease-in-out;
+}
 
-  .section{
-    padding-block: 70px;
-  }    
+.button:hover {
+  color: var(--text-white);
+}
+
+.button:hover::before {
+  content: '';
+  transform: translateX(0);
+}
+.button::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-color: var(--first-color);
+  transform: translateX(100%);
+  z-index: -1;
+  transition: all 0.3s ease-out;
+}
+.button__icon {
+  background-color: var(--first-color);
+  position: absolute;
+  inset-block: -2px;
+  right: 0;
+  width: 55px;
+  border-radius: 50%;
+  color: var(--text-white);
+  font-size: var(--large-font-size);
+  text-align: center;
+  line-height: 60px;
+}
