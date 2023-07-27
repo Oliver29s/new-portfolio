@@ -52,6 +52,7 @@
 
 .portfolio__title{
     color: white;
+    text-align: center;
     font-size: var(--large-font-size);
     font-weight: var(--weight-500);
     transform: translateY(-20px);
