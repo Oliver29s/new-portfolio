@@ -13,12 +13,14 @@ const PortfolioItem = ({ item }) => {
       <img src={img} alt={title} className="portfolio__img" />
       <div className="portfolio__hover" onClick={toggleModal}>
         <h3 className="portfolio__title">{title}</h3>
+        <h5>(click aqui)</h5>
       </div>
       {modal && (
         <div className="portfolio__modal">
           <div className="portfolio__modal-content">
             <img src={Close} alt="" className="modal__close" onClick={toggleModal} />
             <h3 className="modal__title">{title}</h3>
+            
           
           <ul className="modal__list grid">
             {details.map(({ icon, title, desc }, index) => {

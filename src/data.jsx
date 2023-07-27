@@ -260,7 +260,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'visualización : ',
-        desc: "https://lovely-creponne-8056fd.netlify.app/",
+        desc: <a href="https://lovely-creponne-8056fd.netlify.app/">"https://lovely-creponne-8056fd.netlify.app/"</a> ,
       },
     ],
   },
@@ -288,7 +288,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'visualización : ',
-        desc: 'https://exquisite-strudel-1a370b.netlify.app/',
+        desc: <a href="https://exquisite-strudel-1a370b.netlify.app">https://exquisite-strudel-1a370b.netlify.app</a> ,
       },
     ],
   },
@@ -316,7 +316,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'visualización : ',
-        desc: 'www.dribble.com',
+        desc: <a href="https://stirring-scone-a6c3e9.netlify.app ">https://stirring-scone-a6c3e9.netlify.app </a>,
       },
     ],
   },
@@ -344,7 +344,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'visualización : ',
-        desc: 'https://splendid-dieffenbachia-066ea3.netlify.app/',
+        desc: <a href="https://splendid-dieffenbachia-066ea3.netlify.app">https://splendid-dieffenbachia-066ea3.netlify.app</a>,
       },
     ],
   },
@@ -368,7 +368,7 @@ export const portfolio = [
       },
       {
         title: 'visualización : ',
-        desc: 'https://velvety-dusk-150652.netlify.app/#/',
+        desc: <a href="https://velvety-dusk-150652.netlify.app/#/">https://velvety-dusk-150652.netlify.app/#/</a>,
       },
     ],
   },
@@ -396,7 +396,7 @@ export const portfolio = [
       {
         icon: <FiExternalLink />,
         title: 'visualización : ',
-        desc: 'https://musical-starship-c3c885.netlify.app/',
+        desc: <a href="https://musical-starship-c3c885.netlify.app/">https://musical-starship-c3c885.netlify.app/</a>,
       },
     ],
   },
