@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import Close from "../../../../steve-assets/steve-assets/assets/close.svg";
+import Close from "../../public/image/close.svg";
 
 const PortfolioItem = ({ item }) => {
   const [modal, setmodal] = useState(false);
