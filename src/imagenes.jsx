@@ -6,12 +6,12 @@ export  const imagenProfile = [
 
 ]
 
-export const appClima = 'https://scontent.xx.fbcdn.net/v/t1.15752-9/362246949_205745202463005_7275267223818085609_n.png?stp=dst-png_p206x206&_nc_cat=103&cb=99be929b-59f725be&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFg6UUMyt71_CM-YybeMCKUiv0FLujk--iK_QUu6OT76MrHi3mq8K41Qe4oyL-q8rrZqYWFoQlMOE2mqJ-YgIYV&_nc_ohc=7guna2hGxr4AX__h3Hb&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRDbUc0y62pPwFHze20quVyurwNgiJ7FHAq58kj5Ml3eQ&oe=64E08302'
-export const crud ='https://scontent.fbaq2-2.fna.fbcdn.net/v/t1.15752-9/362136545_173572192300375_3892674422817040782_n.png?_nc_cat=109&cb=99be929b-59f725be&ccb=1-7&_nc_sid=ae9488&_nc_eui2=AeF7EbuBmR7sfx7G_cnMmf_oJliBJjXHdPEmWIEmNcd08TY1lJ5XIlzvoWZR0-abpW8HBIX85IYsbDIw65yiox4D&_nc_ohc=aMUFJwjBxSkAX-Diz0u&_nc_ht=scontent.fbaq2-2.fna&oh=03_AdSygVVM5aUdzTgWpJqWhrWLg3Bu6AablebjoPPccNytWw&oe=64DFF916'
-export const colores = 'https://scontent.xx.fbcdn.net/v/t1.15752-9/361987229_120123327811202_2413566197512214961_n.png?stp=dst-png_s417x417&_nc_cat=102&cb=99be929b-59f725be&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeGSEOv_QyeiIh-KOARMGGsLokATyCKNVw6iQBPIIo1XDk_pFppRz_S4E9e3Ew6SzJ0UezMH4wpqLSArfZDGmnM8&_nc_ohc=2EExkb3uuagAX_zEhyA&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdTmoHDQrOVPtG6zFZlWb39ta5qAhjmhtRBauXuNVZ7xLg&oe=64E093A3'
-export const rick ='https://scontent.xx.fbcdn.net/v/t1.15752-9/362129472_936620800774929_9204312936914986537_n.png?stp=dst-png_s417x417&_nc_cat=106&cb=99be929b-59f725be&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFfsd29ZCOk9_Cw5gLR-Q0Py4FAAYiMUuHLgUABiIxS4XAl3paFi_WXIXEP6_7M3wkHGCAnLEutK8OC5PFcKKWX&_nc_ohc=jzDVAgBwXNIAX8Kll3t&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdSKnC4Bhc8qTSvUIyCEvTiju6xFmZyYms9VOsqpOae99w&oe=64E09D14'
-export const pokeAPi ='https://scontent.xx.fbcdn.net/v/t1.15752-9/362238103_6492855824160348_2195427098190859720_n.png?stp=dst-png_s417x417&_nc_cat=107&cb=99be929b-59f725be&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeFY2er49tnhk-UBbqc50pxoyO6FKO2CSzTI7oUo7YJLNLJSPoHGwxatGjdC87XGeG47b8pzgByKsMkS7lyK3l5N&_nc_ohc=kpcblc2HVq4AX-ZGdqW&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdRUVI9xbxx0xl-6-T2xVWQMwfLNb0UatKdNZEbpADvFmw&oe=64E09F63'
-export const ecomerce ='https://scontent.xx.fbcdn.net/v/t1.15752-9/361648603_651969496968102_4475682654666372412_n.png?stp=dst-png_s417x417&_nc_cat=100&cb=99be929b-59f725be&ccb=1-7&_nc_sid=aee45a&_nc_eui2=AeEDk23DjKYU4P1DjAWkyaLHv-HGkMKKLoa_4caQwoouhvK4ZXPr1HCUo3mjbVn_e9m9x1-VZhkILCOdtAesoEOH&_nc_ohc=jeWwVnQW-F8AX9caXPP&_nc_ad=z-m&_nc_cid=0&_nc_ht=scontent.xx&oh=03_AdQVJeSdybaS_9jfhLXTvx4YcOToaSfMUwNA3FB3zus0vw&oe=64E0B1D8'
+export const appClima = 'https://lh3.googleusercontent.com/io11Omui8Ogt1FLafRsQKfJ3KLPm3qurE6wjBuElumg0moVetRdvOrfrgjyUDuVUBuGxqjzMyNF14w3xN4VtT9Nma1bBJEoku_KwAEA'
+export const crud ='https://lh3.googleusercontent.com/5cR4ty30zdx1eqdfV3KphlNdkNJo-BoMGX4Tv2KKgjLr7uQZbx5QErF7V0rvh0d9MSGvYUAFKeNmHC3VlSh4E_tDOrGXWBGxk9sjq8s'
+export const colores = 'https://lh3.googleusercontent.com/SbyXWLGLU_xYmwYKtddKnGSjeSGNblXzWnulJF-d1XZmTmEsaTf6NX3KzRET9BbvL4aWw19V6-SBSZbC6O7FF1Zg5ACUY8ORABaG7NE'
+export const rick ='https://lh3.googleusercontent.com/6toN6Hj2IB2GZQp23wVwL4_wfJt-IAjepJ226N_38wM2UQ3fv_zxOWBVfxUEMxrF6CQmelmbjIaVuM9gfaCojafz_86WrPoa9zJc7PLVyA'
+export const pokeAPi ='https://lh3.googleusercontent.com/Q8FVM0qV1vB2QIvE4CCzE2GZ9daL9KR4smrde4RRemTr5nMFR20Xy2tmUdPnsUQ9HWVzsg15DQtQg6rFxxC3TTXXYEgITxbgZOm2cqc'
+export const ecomerce ='https://lh3.googleusercontent.com/-Y18eoTuQilsGbd890SowU7BulgpCJQVisvLHj5ZSb0Z2MBuJfnflqvbK8fcn8q8Cqa4U78koT5n24dKZHkYH-vtb_Qu_ogEykHOFkAG'
 
 
 
