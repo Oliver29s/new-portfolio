@@ -1,9 +1,9 @@
-import Clima from '../public/image/clima.png'
-import Crud from '../public/image/usuarios.png'
-import Colores from '../public/image/colores.png'
-import Rick from '../public/image/rick-morty.png'
-import PokeApi from '../public/image/Pokedex.png'
-import Ecommerce from '../public/image/ecomerce.png'
+import Clima from '../src/assets/clima.png'
+import Crud from '../src/assets/usuarios.png'
+import Colores from '../src/assets/colores.png'
+import Rick from '../src/assets/rick-morty.png'
+import PokeApi from '../src/assets/pokedex.png'
+import Ecommerce from '../src/assets/ecomerce.png'
 
 
 export  const imagenProfile = [
