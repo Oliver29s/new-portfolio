@@ -1,3 +1,11 @@
+import Clima from '../public/image/clima.png'
+import Crud from '../public/image/usuarios.png'
+import Colores from '../public/image/colores.png'
+import Rick from '../public/image/rick-morty.png'
+import PokeApi from '../public/image/Pokedex.png'
+import Ecommerce from '../public/image/ecomerce.png'
+
+
 export  const imagenProfile = [
     "https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png",
     "https://www.vectorlogo.zone/logos/reactjs/reactjs-ar21.png",
@@ -6,12 +14,12 @@ export  const imagenProfile = [
 
 ]
 
-export const appClima = 'https://lh3.googleusercontent.com/io11Omui8Ogt1FLafRsQKfJ3KLPm3qurE6wjBuElumg0moVetRdvOrfrgjyUDuVUBuGxqjzMyNF14w3xN4VtT9Nma1bBJEoku_KwAEA'
-export const crud ='https://lh3.googleusercontent.com/5cR4ty30zdx1eqdfV3KphlNdkNJo-BoMGX4Tv2KKgjLr7uQZbx5QErF7V0rvh0d9MSGvYUAFKeNmHC3VlSh4E_tDOrGXWBGxk9sjq8s'
-export const colores = 'https://lh3.googleusercontent.com/SbyXWLGLU_xYmwYKtddKnGSjeSGNblXzWnulJF-d1XZmTmEsaTf6NX3KzRET9BbvL4aWw19V6-SBSZbC6O7FF1Zg5ACUY8ORABaG7NE'
-export const rick ='https://lh3.googleusercontent.com/6toN6Hj2IB2GZQp23wVwL4_wfJt-IAjepJ226N_38wM2UQ3fv_zxOWBVfxUEMxrF6CQmelmbjIaVuM9gfaCojafz_86WrPoa9zJc7PLVyA'
-export const pokeAPi ='https://lh3.googleusercontent.com/Q8FVM0qV1vB2QIvE4CCzE2GZ9daL9KR4smrde4RRemTr5nMFR20Xy2tmUdPnsUQ9HWVzsg15DQtQg6rFxxC3TTXXYEgITxbgZOm2cqc'
-export const ecomerce ='https://lh3.googleusercontent.com/-Y18eoTuQilsGbd890SowU7BulgpCJQVisvLHj5ZSb0Z2MBuJfnflqvbK8fcn8q8Cqa4U78koT5n24dKZHkYH-vtb_Qu_ogEykHOFkAG'
+export const appClima = Clima
+export const crud = Crud
+export const colores = Colores
+export const rick = Rick
+export const pokeAPi = PokeApi
+export const ecomerce = Ecommerce
 
 
 
