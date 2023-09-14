@@ -16,13 +16,13 @@ const Home = () => {
           />
         </div>
         <div className="div__img">
-          <img src={imagenProfile[0]} className="img_profile" alt="react" />
+          <img src={imagenProfile[2]} className="img_profile" alt="react" />
         </div>
         <div className="div__img"> 
           <img src={imagenProfile[3]} className="img_profile" alt="node" />
         </div>
         <div className="div__img">
-          <img src={imagenProfile[2]} className="img_profile" alt="nest" />
+          <img src={imagenProfile[0]} className="img_profile" alt="nest" />
         </div>
       </div>
 
