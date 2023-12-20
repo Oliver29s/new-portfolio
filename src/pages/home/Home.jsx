@@ -43,7 +43,7 @@ const Home = () => {
             conocer más acerca de mi experiencia y habilidades.
           </p>
           <Link to="/about" className="button">
-            Mas sobre mí{" "}
+            Más sobre mí{" "}
             <span className="button__icon">
               <FaArrowRight />
             </span>
