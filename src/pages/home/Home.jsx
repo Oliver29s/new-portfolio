@@ -18,7 +18,7 @@ const Home = () => {
         <div className="div__img">
           <img src={imagenProfile[2]} className="img_profile" alt="react" />
         </div>
-        <div className="div__img"> 
+        <div className="div__img">
           <img src={imagenProfile[3]} className="img_profile" alt="node" />
         </div>
         <div className="div__img">
@@ -33,9 +33,9 @@ const Home = () => {
             <span> - Hola, soy Oliver </span>Diseñador y Desarrollador wed
           </h1>
           <p className="home__description">
-            Como desarrollador web full stack cuento  con experiencia en HTML, CSS,
-            JavaScript, React.js, TypeScript, Node.js, Express, Nest.js y
-            Prisma. También tengo experiencia en la creación de bases de datos,
+            Como desarrollador web full stack cuento con experiencia en 
+            JAVASCRIPT, HTML y CSS, REACT JS, NODE JS, EXPRESS, NEST JS, PRISMA,
+            DOCKER. También tengo experiencia en la creación de bases de datos,
             integración de APIs y soluciones de seguridad.Tengo experiencia en
             liderar equipos de desarrollo en proyectos de gran envergadura,
             obteniendo resultados exitosos. Si estás buscando un desarrollador
@@ -50,9 +50,7 @@ const Home = () => {
           </Link>
         </div>
       </div>
-      <div className="color__block">
-        
-      </div>
+      <div className="color__block"></div>
     </section>
   );
 };

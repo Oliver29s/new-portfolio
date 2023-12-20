@@ -13,7 +13,7 @@ const About = () => {
           <p id="p__job">Cargo: </p>Desarrollador Full Stack
         </p>
         <p>
-          <p id="p__job">Año: </p>Mayo 2023 - actualidad
+          <p id="p__job">Año: </p>Junio 2023 - actualidad
         </p>
         <div className="experience__about">
           <h4>Descripcion</h4>
